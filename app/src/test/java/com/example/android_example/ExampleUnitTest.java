@@ -12,8 +12,6 @@ import org.junit.Assert;
 public class ExampleUnitTest {
     @Test
     public void test_TestMe(){
-        TestMe t = new TestMe();
-        // t.test() always returns 1, test will always pass
-        Assert.assertNotEquals(0, t.test());
+        Assert.assertNotNull(new TestMe().test());
     }
 }
