@@ -14,4 +14,8 @@ public class ExampleUnitTest {
     public void test_TestMe(){
         Assert.assertNotNull(new TestMe().test());
     }
+    @Test
+    public void test_TestString(){
+        Assert.assertEquals("abc", new TestMe().testString("abc"));
+    }
 }

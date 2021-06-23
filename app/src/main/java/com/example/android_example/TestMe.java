@@ -10,4 +10,8 @@ public class TestMe {
         }
         return tmp;
     }
+    public String testString(String s){
+        return s;
+    }
+
 }
